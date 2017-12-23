@@ -3,5 +3,6 @@ pipeline:
     image: redis
     commands:
       - env
+      - echo "Hurray...Success !!!"
     when:
      event: push	
