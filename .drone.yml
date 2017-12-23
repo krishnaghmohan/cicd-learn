@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: redis
+    commands:
+      - env
+    when:
+     event: push	
