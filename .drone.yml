@@ -4,5 +4,6 @@ pipeline:
     commands:
       - env
       - echo "Hurray...Success !!!"
+      - echo :why does it work here and not in the other repo"
     when:
      event: push	
